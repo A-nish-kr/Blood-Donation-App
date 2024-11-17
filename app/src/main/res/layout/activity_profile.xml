@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BloodLight"
+    tools:context=".ProfileActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/profileimg"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/avatar" />
+
+        <TextView
+            android:id="@+id/profilename"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:textColor="@color/BloodLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="Name  :" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Logout"
+
+        android:backgroundTint="@color/Blood"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BloodLight"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/requestImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/requestTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Title"
+        android:background="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/requestDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Description of the request"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/bloodTypeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood Type: "
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: "
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/contactNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact: "
+        android:textSize="16sp"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/donateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donate Now"
+        android:backgroundTint="@color/Blood"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
